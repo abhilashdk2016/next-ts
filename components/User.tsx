@@ -1,11 +1,11 @@
-import { ReactNode } from "react"
+import { FC, ReactNode } from "react"
 
 interface UserProps {
     name: string,
     age: number,
     children: ReactNode
 }
-const User = ({ name, age, children } : UserProps) => {
+const User: FC<UserProps> = ({ name, age, children }) => {
   return (
     <div>User
 
