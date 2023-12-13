@@ -4,7 +4,9 @@ export default function Home() {
   return (
     <section>
       <h1>Hello Next with TypeScript</h1>
-      <User name="Abhilash" age={20} />
+      <User name="Abhilash" age={20}>
+        <p>This is a child</p>
+      </User>
     </section>
   )
 }
