@@ -1,4 +1,5 @@
 import AdminInfo from "@/components/AdminInfo";
+import Counter from "@/components/Counter";
 import User from "@/components/User";
 import UserInfo from "@/components/UserInfo";
 
@@ -11,6 +12,7 @@ export default function Home() {
       </User>
       <UserInfo username="a" email="b" />
       <AdminInfo username="admin" email="admin@info.com" isAdmin={true} />
+      <Counter />
     </section>
   )
 }
