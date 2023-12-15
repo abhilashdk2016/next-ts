@@ -1,4 +1,5 @@
 import AdminInfo from "@/components/AdminInfo";
+import Button, { primaryButtonProps, secondaryButtonProps } from "@/components/Button";
 import Counter from "@/components/Counter";
 import ElementWrapper from "@/components/ElementWrapper";
 import Form from "@/components/Form";
@@ -22,6 +23,8 @@ export default function Home() {
               
           </div>
       </ElementWrapper>
+      <Button {...primaryButtonProps} />
+      <Button {...secondaryButtonProps} />
     </section>
   )
 }
